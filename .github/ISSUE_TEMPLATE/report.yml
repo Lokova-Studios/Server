@@ -17,11 +17,10 @@ body:
       multiple: true
       description: 违规行为的类型，可选择多个
       options:
-        - 使用违规Mod
+        - 影响服务器正常运行
+        - 使其他玩家无法正常连接
         - 聊天不适当内容
-        - 恶意破坏
-        - 盗窃/损毁其他玩家领地
-        - 其他
+        - 现实货币交易
     validations:
       required: true
   - type: textarea
