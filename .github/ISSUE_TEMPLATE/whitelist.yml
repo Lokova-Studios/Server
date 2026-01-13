@@ -1,0 +1,22 @@
+name: whitelist
+title: 白名单答题
+description: 必须答题全部正确才能加入白名单
+projects: []
+labels:
+  - application
+assignees: IlyaYezelovsky
+body:
+  - type: checkboxes
+    id: checkboxes-0
+    attributes:
+      label: 不定项选择题
+      description: 以下哪些选项是允许的？
+      options:
+        - label: 使用Meteor挂端加入服务器
+        - label: 利用游戏漏洞复制TNT
+        - label: 建造禁人塔
+        - label: 在野外看到开启PVP的玩家，用KillAura持续击杀
+        - label: 在聊天区鉴证
+        - label: 见到一处未圈地的基地，据为己有
+    validations:
+      required: true
